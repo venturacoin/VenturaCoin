@@ -1,1 +1,1 @@
-# venturacoin
+# VenturaCoin
