@@ -1,0 +1,26 @@
+[Unit]
+Description=Ventura's distributed currency daemon
+After=network.target
+
+[Service]
+User=ventura
+Group=ventura
+
+Type=forking
+PIDFile=/var/lib/venturad/venturad.pid
+
+ExecStart=/usr/bin/venturad -daemon -pid=/var/lib/venturad/venturad.pid \
+          -conf=/etc/ventura/ventura.conf -datadir=/var/lib/venturad
+
+ExecStop=-/usr/bin/ventura-cli -conf=/etc/ventura/ventura.conf \
+         -datadir=/var/lib/venturad stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

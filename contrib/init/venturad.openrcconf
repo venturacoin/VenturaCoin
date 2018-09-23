@@ -1,0 +1,26 @@
+# /etc/conf.d/venturad: config file for /etc/init.d/venturad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ventura/ventura.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/venturad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/venturad.pid"
+
+# Where to write venturad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/venturad"
+
+# User and group to own venturad process
+#BITCOIND_USER="ventura"
+#BITCOIND_GROUP="ventura"
+
+# Path to venturad executable
+#BITCOIND_BIN="/usr/bin/venturad"
+
+# Nice value to run venturad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

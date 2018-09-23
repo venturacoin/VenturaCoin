@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ventura_bg.qm</file>
+        <file alias="ca">locale/ventura_ca.qm</file>
+        <file alias="cs">locale/ventura_cs.qm</file>
+        <file alias="da">locale/ventura_da.qm</file>
+        <file alias="de">locale/ventura_de.qm</file>
+        <file alias="en">locale/ventura_en.qm</file>
+        <file alias="en_US">locale/ventura_en_US.qm</file>
+        <file alias="es">locale/ventura_es.qm</file>
+        <file alias="fi">locale/ventura_fi.qm</file>
+        <file alias="fr_FR">locale/ventura_fr_FR.qm</file>
+        <file alias="hr">locale/ventura_hr.qm</file>
+        <file alias="it">locale/ventura_it.qm</file>
+        <file alias="ja">locale/ventura_ja.qm</file>
+        <file alias="ko_KR">locale/ventura_ko_KR.qm</file>
+        <file alias="nl">locale/ventura_nl.qm</file>
+        <file alias="pl">locale/ventura_pl.qm</file>
+        <file alias="pt">locale/ventura_pt.qm</file>
+        <file alias="pt_BR">locale/ventura_pt_BR.qm</file>
+        <file alias="ro_RO">locale/ventura_ro_RO.qm</file>
+        <file alias="ru">locale/ventura_ru.qm</file>
+        <file alias="sk">locale/ventura_sk.qm</file>
+        <file alias="sv">locale/ventura_sv.qm</file>
+        <file alias="tr">locale/ventura_tr.qm</file>
+        <file alias="uk">locale/ventura_uk.qm</file>
+        <file alias="zh_CN">locale/ventura_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ventura_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ventura
+Comment=Ventura P2P Cryptocurrency
+Comment[fr]=Ventura, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ventura, eşten eşe kriptografik sanal para birimi
+Exec=ventura-qt %u
+Terminal=false
+Type=Application
+Icon=ventura128
+MimeType=x-scheme-handler/ventura;
+Categories=Office;Finance;
